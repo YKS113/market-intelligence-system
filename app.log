@@ -1,0 +1,38 @@
+2025-08-03 15:44:13,642 - scraper.py - 129 - INFO - Starting concurrent scraping for 1 hashtags...
+2025-08-03 15:44:13,643 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 15:44:13,643 - scraper.py - 64 - INFO - Querying X for: '#nifty50 -is:retweet' with limit=10
+2025-08-03 15:44:14,424 - scraper.py - 104 - INFO - Successfully retrieved 10 tweets for #nifty50.
+2025-08-03 15:44:14,426 - scraper.py - 143 - INFO - Successfully scraped 10 tweets for nifty50.
+2025-08-03 15:44:14,445 - scraper.py - 159 - INFO - Total unique tweets scraped: 10
+2025-08-03 15:44:14,473 - processor.py - 33 - INFO - Loaded 10 raw tweets.
+2025-08-03 15:44:14,486 - processor.py - 48 - INFO - Removed 0 duplicate tweets.
+2025-08-03 15:44:14,823 - processor.py - 56 - INFO - Successfully processed and saved data to data\signals.parquet
+2025-08-03 16:02:51,149 - scraper.py - 129 - INFO - Starting concurrent scraping for 5 hashtags...
+2025-08-03 16:02:51,151 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 16:02:51,151 - scraper.py - 64 - INFO - Querying X for: '#nifty50 -is:retweet' with limit=10
+2025-08-03 16:02:51,152 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 16:02:51,152 - scraper.py - 64 - INFO - Querying X for: '#banknifty -is:retweet' with limit=10
+2025-08-03 16:02:51,152 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 16:02:51,152 - scraper.py - 64 - INFO - Querying X for: '#sensex -is:retweet' with limit=10
+2025-08-03 16:02:51,153 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 16:02:51,153 - scraper.py - 64 - INFO - Querying X for: '#stockmarketindia -is:retweet' with limit=10
+2025-08-03 16:02:51,153 - scraper.py - 59 - INFO - Using start_time: 2025-08-02T00:00:00Z
+2025-08-03 16:02:51,153 - scraper.py - 64 - INFO - Querying X for: '#intraday -is:retweet' with limit=10
+2025-08-03 16:02:52,173 - scraper.py - 109 - ERROR - Tweepy error while scraping banknifty: 429 Too Many Requests
+Too Many Requests
+2025-08-03 16:02:52,174 - scraper.py - 109 - ERROR - Tweepy error while scraping stockmarketindia: 429 Too Many Requests
+Too Many Requests
+2025-08-03 16:02:52,177 - scraper.py - 143 - INFO - Successfully scraped 0 tweets for banknifty.
+2025-08-03 16:02:52,180 - scraper.py - 109 - ERROR - Tweepy error while scraping sensex: 429 Too Many Requests
+Too Many Requests
+2025-08-03 16:02:52,183 - scraper.py - 109 - ERROR - Tweepy error while scraping nifty50: 429 Too Many Requests
+Too Many Requests
+2025-08-03 16:02:52,185 - scraper.py - 143 - INFO - Successfully scraped 0 tweets for stockmarketindia.
+2025-08-03 16:02:52,188 - scraper.py - 143 - INFO - Successfully scraped 0 tweets for sensex.
+2025-08-03 16:02:52,188 - scraper.py - 143 - INFO - Successfully scraped 0 tweets for nifty50.
+2025-08-03 16:02:52,231 - scraper.py - 104 - INFO - Successfully retrieved 10 tweets for #intraday.
+2025-08-03 16:02:52,234 - scraper.py - 143 - INFO - Successfully scraped 10 tweets for intraday.
+2025-08-03 16:02:52,238 - scraper.py - 159 - INFO - Total unique tweets scraped: 10
+2025-08-03 16:02:52,267 - processor.py - 33 - INFO - Loaded 10 raw tweets.
+2025-08-03 16:02:52,278 - processor.py - 48 - INFO - Removed 0 duplicate tweets.
+2025-08-03 16:02:52,318 - processor.py - 56 - INFO - Successfully processed and saved data to data\signals.parquet
