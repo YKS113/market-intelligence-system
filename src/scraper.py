@@ -1,7 +1,6 @@
 """
 Module for scraping tweet data from Twitter/X using snscrape.
 """
-import snscrape.modules.twitter as sntwitter
 import pandas as pd
 from datetime import datetime, timedelta
 import logging
@@ -35,7 +34,6 @@ def get_tweets_from_x(hashtag, limit=10, since_date=None):
         list: A list of dictionaries, where each dictionary represents a tweet.
     """
     tweets_list = []
-    print('entered twtr')
     if not BEARER_TOKEN:
         logging.error("Error: BEARER_TOKEN is not set. Please get your token from the X Developer Portal.")
         return []
@@ -43,7 +41,6 @@ def get_tweets_from_x(hashtag, limit=10, since_date=None):
     try:
         # Initialize the Tweepy client with your Bearer Token
         client = tweepy.Client(BEARER_TOKEN)
-        print('client started', client)
 
         # Construct the query for recent search (past 7 days is typical for free/basic)
         query_string = f"#{hashtag} -is:retweet" # Exclude retweets for cleaner data
@@ -71,7 +68,7 @@ def get_tweets_from_x(hashtag, limit=10, since_date=None):
             expansions=["author_id"], # To get user details
             max_results=min(limit,10) # Max 1 results per request for recent search
         )
-        print('seach res', response)
+
         # Handle rate limiting or other API errors
         if response.errors:
             for error in response.errors:
