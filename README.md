@@ -39,7 +39,7 @@ The system operates in a three-stage pipeline:
 
 Clone the repository and set up a virtual environment:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML``   git clone   cd market-intelligence-system  # Create and activate a virtual environment  python -m venv venv  source venv/bin/activate  # On Windows, use `venv\Scripts\activate`  # Install dependencies  pip install -r requirements.txt   ``
+``   git clone   cd market-intelligence-system  # Create and activate a virtual environment  python -m venv venv  source venv/bin/activate  # On Windows, use `venv\Scripts\activate`  # Install dependencies  pip install -r requirements.txt   ``
 
 ### 3\. Running the Pipeline
 
@@ -58,4 +58,5 @@ This will:
 ### 4\. Analyzing the Results
 
 Open and run the Jupyter notebook to explore the data and visualize the results:
+
 `   jupyter notebook notebooks/analysis.ipynb   `
