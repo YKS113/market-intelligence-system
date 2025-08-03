@@ -41,7 +41,8 @@ Clone the repository and set up a virtual environment:
 
 `git clone`   
 `cd market-intelligence-system`  # Create and activate a virtual environment  
-`python -m venv venv  source venv/bin/activate`  # On Windows, use `venv\Scripts\activate`  # Install dependencies  
+`python -m venv venv  source venv/bin/activate`  # On Windows, use `venv\Scripts\activate` 
+# Install dependencies  
 `pip install -r requirements.txt`
 
 ### 3\. Running the Pipeline
